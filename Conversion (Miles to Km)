@@ -1,0 +1,14 @@
+//The conversion factor for miles to kilometers
+let milesToKilometers = 1.60934;
+
+//Ask user for data in miles
+const miles = prompt("Enter the distance into miles.")
+console.log(miles,"miles")
+
+//Use the conversion factor to multiply miles into kilometers
+let kilometers = miles * milesToKilometers;
+console.log(kilometers, "Kilometers");
+
+// console.log("The distance of",kilometers, "km is equal to", miles, "miles");
+let sentence = "The distance of " + kilometers + " kms is equal to " + miles + " miles."
+console.log(sentence)
